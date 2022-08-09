@@ -1,0 +1,32 @@
+body {
+	background: #fbd05c;
+	font-family: russo one;
+}
+.wrapper {
+	display: grid;
+	place-items: center;
+	height: 95vh;
+}
+h2 {
+	text-align: center;
+	color: #07252d;
+	font-size: 60px;
+	margin: 0;
+	text-shadow: 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px #ddd;
+	animation: animate 2s linear infinite;
+}
+h2 span {
+	text-shadow: 0 0 10px #533876, 0 0 20px #533876, 0 0 30px #533876, 0 0 40px #533876;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate {
+	0% {
+		color: #fff;
+	}
+	50% {
+		color: #ff6600;
+	}
+	100% {
+		color: #533876;
+	}
+}
